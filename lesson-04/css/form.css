@@ -1,0 +1,27 @@
+.form-row {
+    margin: 1.25em 0;
+    overflow: hidden;
+}
+
+.form-row label {
+    text-align: right;
+}
+
+.form-buttons {
+    text-align: right;
+}
+
+.form-control {
+    width: 100%;
+}
+
+
+/*.form-vertical label {*/
+/*display: block;*/
+/*margin-bottom: 0.625em;*/
+/*}*/
+
+/*.form-vertical input,*/
+/*.form-vertical textarea {*/
+    /*width: 100%;*/
+/*}*/
