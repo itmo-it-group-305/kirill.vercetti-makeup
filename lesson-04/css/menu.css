@@ -32,3 +32,20 @@
 .top-menu a:hover {
     color: rgb(248, 120 ,88);
 }
+
+
+/* Footer menu */
+
+.footer-menu {
+    color: #fff;
+}
+
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    color: rgb(248, 88 ,152);
+    text-decoration: underline;
+}

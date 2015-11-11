@@ -5,6 +5,7 @@
 @import "grid.css";
 @import "menu.css";
 @import "form.css";
+@import "buttons.css";
 
 /* http://www.dev.bowdenweb.com/nes/nes-color-palette.html */
 
@@ -15,21 +16,19 @@ body {
     line-height: 1.5;
 }
 
-h1, h2, h3 {
-    color: rgb(248, 120 ,88);
-}
-
 h1 {
     font-size: 2.25em;
 }
 
 h2 {
+    color: rgb(88, 216 ,84);
     font: 1.875em 'Press Start 2P', cursive;
-    margin-top: 2em;
+    margin-top: 2.5em;
     margin-bottom: 1em;
 }
 
 h3 {
+    color: rgb(184, 184 ,248);
     font: 700 1.5em 'Open Sans', sans-serif;
     margin-bottom: 1em;
 }
@@ -49,16 +48,20 @@ p {
 
 .row {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 75em;
 }
 
-.two-footer {
-    padding: 2em 0;
+.first-footer {
+    margin-top: 2.5em;
+}
+.second-footer {
+    padding: 2em 0 1.5em;
 }
 
-.two-footer p {
+.second-footer p {
     color: #fff;
     font: 0.625em 'Press Start 2P', cursive;
+    text-align: center;
 }
 
 .sale {

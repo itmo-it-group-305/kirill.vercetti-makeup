@@ -1,9 +1,14 @@
+textarea {
+    resize: none;
+}
+
 .form-row {
     margin: 1.25em 0;
     overflow: hidden;
 }
 
 .form-row label {
+    margin-top: 0.5em;
     text-align: right;
 }
 
@@ -12,16 +17,11 @@
 }
 
 .form-control {
+    padding: 0.5em;
     width: 100%;
 }
 
-
-/*.form-vertical label {*/
-/*display: block;*/
-/*margin-bottom: 0.625em;*/
-/*}*/
-
-/*.form-vertical input,*/
-/*.form-vertical textarea {*/
-    /*width: 100%;*/
-/*}*/
+.form-control {
+    background: #000;
+    border: 1px solid rgb(104, 136 ,252);
+}
